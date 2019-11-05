@@ -3,7 +3,7 @@ TUGAS PRAKTIKUM 3
 Latihan1
 
 - Source Code
-
+```
 n=int(input("Masukkan Nilai N: "))          ## Memperkenalkan variable n sebagai integer, kemudian menginputkan nilainya
 
 from random import random                   ## Mengimport fungsi random
@@ -17,9 +17,9 @@ step=1                                      ## Step angka 1
 for i in range(start,stop,step):            ## Perulangan i dengan nilai awal variable start, nilai akhir variable stop dan step variable step
     print("data ke : ",i,"=",(a))           ## Mencetak hasil
 print("\nDone")
-
+```
 - Algoritma
-
+```
 A. Input 
     Print
         >> print berfungsi untuk mencetak atau menampilkan objek ke perangkat keluaran (layar) atau ke file teks.
@@ -48,11 +48,11 @@ C. Output
         >> Mencetak hasil
     print("\nDone")
         >>Berfungsi untuk mencetak teks "Done" yang bertanda bahwa program sudah berakhir
-
+```
 Latihan2
 
 - Source Code
-
+```
 x = int()                                ## Memperkenalkan variable x sebagai integer, kemudian menginputkan nilainya
 y = 0                                    ## Memperkenalkan variable y dengan nilai 0
 while x >= 0:                            ## Looping WHILE apabila nilai x tidak sama dengan 0
@@ -62,9 +62,9 @@ while x >= 0:                            ## Looping WHILE apabila nilai x tidak 
  if x == 0:                              ## If kondisi apabila nilai x sama dengan 0
   break                                  ## Fungsi yang menghentikan operasi dibawahna jika suatu kondisi yang ditentukan telah tercapai
 print("\nAngka Terbesar Adalah ",y)      ## Mencetak bilangan terbesar
-
+```
 - Algoritma
-
+```
 A. Input 
       Print
           >> berfungsi untuk mencetak atau menampilkan objek ke perangkat keluaran (layar) atau ke file teks.
@@ -89,11 +89,11 @@ B. Process
 C. Output
       print("\nAngka Terbesar Adalah ",y)
           >>Untuk menampilkan Hasil dengan mencetak bilangan terbesar yaitu y
-
+```
 Program1
 
 -Source Code
-
+```
 modal = 100000000                              ## Nilai modal
 laba = 0                                       ## Nilai laba 0
 untung = 0                                     ## Nilai untung 0
@@ -150,3 +150,4 @@ print("\nTotal Laba adalah: ",untung)          ## Menghitung total laba selama 8
       >> Mencetak laba per bulan
     print("\nTotal Laba adalah: ",untung)
       >> Mencetak total laba
+```
