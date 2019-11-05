@@ -92,7 +92,7 @@ C. Output
 ```
 Program1
 
--Source Code
+- Source Code
 ```
 modal = 100000000                              ## Nilai modal
 laba = 0                                       ## Nilai laba 0
@@ -112,7 +112,9 @@ for i in range(1,9,1):                         ## Perulangan i dengan nilai awal
   untung = untung + laba
  print("Laba Bulan Ke-",i," Sebesar ",laba)    ## Mencetak laba per bulan
 print("\nTotal Laba adalah: ",untung)          ## Menghitung total laba selama 8 bulan
+```
 - Algoritma
+```
   A. Input 
         modal = 100000000
         laba = 0
